@@ -18,7 +18,7 @@ const router = createBrowserRouter([
         loader : Loader ,
         children : [{index : true , element : <Home/> },
         {path :"facts" , element : <FactsPage />} , 
-        {path : "beans/bean/:id" , element : <BeanPage/>} , 
+        {path : "18Module/beans/bean/:id" , element : <BeanPage/>} , 
         {path : "beans" ,  element :<BeansPage /> } ,
         {path:"*" ,  element: <NotFound />} ,
         {path : "review" ,  element: <Review />},
