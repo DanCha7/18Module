@@ -13,7 +13,7 @@ import { BeansPage } from "./pages/Beans";
 
 const router = createBrowserRouter([
     {
-        path : "/",
+        path : "/18Module",
         element : <Layout /> ,
         loader : Loader ,
         children : [{index : true , element : <Home/> },
