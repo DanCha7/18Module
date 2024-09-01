@@ -24,7 +24,7 @@ const router = createBrowserRouter([
         {path : "review" ,  element: <Review />},
         {path : "recipes" ,  element: <RecipesPage/>} ,
         {path : "combinations" ,  element : <CombinationsPage />} ,
-        {path :"history" , element: <HistoryPage /> }
+        {path :"/18Module/history" , element: <HistoryPage /> }
 
     ],
     }
