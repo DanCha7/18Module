@@ -7,9 +7,9 @@ const Nav = () => {
             <ol className="nav__item__list">
                 <Link to ="/18Module/beans" >Beans</Link>
                 <Link to ="/18Module/facts" >Facts</Link>
-                <Link to = "/recipes">Recipies</Link>
-                <Link to ="/combinations">Combinations</Link>
-                <Link to="/history">History</Link>
+                <Link to = "/18Module/recipes">Recipies</Link>
+                <Link to ="/18Module/combinations">Combinations</Link>
+                <Link to="/18Module/history">History</Link>
             </ol>
         </nav>
     )
