@@ -12,22 +12,22 @@ import { BeanPage } from "./pages/BeanPage";
 import { BeansPage } from "./pages/Beans";
 
 const router = createBrowserRouter([
-    {
-        path : "/18Module",
-        element : <Layout /> ,
-        loader : Loader ,
-        children : [{index : true , element : <Home/> },
-        {path :"facts" , element : <FactsPage />} , 
-        {path : "18Module/beans/bean/:id" , element : <BeanPage/>} , 
-        {path : "beans" ,  element :<BeansPage /> } ,
-        {path:"*" ,  element: <NotFound />} ,
-        {path : "review" ,  element: <Review />},
-        {path : "recipes" ,  element: <RecipesPage/>} ,
-        {path : "combinations" ,  element : <CombinationsPage />} ,
-        {path :"/18Module/history" , element: <HistoryPage /> }
-
+  {
+    path: "",
+    element: <Layout />,
+    loader: Loader,
+    children: [
+      { path: "/", element: <Home /> },
+      { path: "facts", element: <FactsPage /> },
+      { path: "bean/:id", element: <BeanPage /> },
+      { path: "beans", element: <BeansPage /> },
+      { path: "*", element: <NotFound /> },
+      { path: "review", element: <Review /> },
+      { path: "recipes", element: <RecipesPage /> },
+      { path: "combinations", element: <CombinationsPage /> },
+      { path: "history", element: <HistoryPage /> },
     ],
-    }
+  },
 ]);
 
 export default router;

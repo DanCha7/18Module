@@ -6,7 +6,7 @@ import { Loader } from "../../components/Loader";
 import { getBeans } from "../../api/beans";
 import { beansSelector } from "../../redux/beans/beansSelector";
 import { useAppDispatch } from "../../redux/store";
-import "/src/pages/Beans/style.css"
+import "/src/pages/Beans/style.css";
 
 export const BeansPage = () => {
   const dispatch = useAppDispatch();

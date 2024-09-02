@@ -1,9 +1,7 @@
-
 import { useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
 import { beansSelector } from "../../redux/beans/beansSelector";
-import "/src/pages/BeanPage/style.css"
-
+import "/src/pages/BeanPage/style.css";
 
 export const BeanPage = () => {
   const { id } = useParams();
